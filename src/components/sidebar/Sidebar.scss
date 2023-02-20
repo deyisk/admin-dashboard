@@ -1,0 +1,30 @@
+// FIXED
+
+%sidebar-fixed {
+  width: 17%;
+  height: 100%;
+  background-color: red;
+}
+
+%sidebar-header-fixed {
+  height: 6rem;
+  background-color: blue;
+}
+
+%sidebar-hero-fixed {
+  background-color: pink;
+}
+
+// CONTROLLER
+
+.sidebar {
+  @extend %sidebar-fixed;
+}
+
+.sidebar-header {
+  @extend %sidebar-header-fixed;
+}
+
+.sidebar-hero {
+  @extend %sidebar-hero-fixed;
+}

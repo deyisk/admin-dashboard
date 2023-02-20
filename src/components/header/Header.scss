@@ -1,0 +1,36 @@
+// FIXED
+
+%header-fixed {
+  position: relative;
+  width: 83%;
+  margin-left: 17%;
+  top: 0px;
+}
+
+%body-fixed {
+  margin: 0;
+}
+
+%header-right-fixed {
+}
+
+%header-left-fixed {
+}
+
+// CONTROLLER
+
+.header {
+  @extend %header-fixed;
+}
+
+.header-right {
+  @extend %header-right-fixed;
+}
+
+.header-left {
+  @extend %header-left-fixed;
+}
+
+.body-fixed {
+  @extend %body-fixed;
+}
